@@ -25,7 +25,7 @@ public class LongestSubstringWithoutRepeat {
             } else {
                 int index = mark[code];
                 mark[code] = -1;
-                i = index + 1;
+                i = index;
                 if (sb.length() > max) {
                     max = sb.length();
                     ret = sb.toString();
